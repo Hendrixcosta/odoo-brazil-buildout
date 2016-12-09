@@ -36,7 +36,7 @@ install:
   - bin/pip install -U pip zc.buildout
   - echo "[buildout] 
   extends = 
-https://raw.githubusercontent.com/odoo-brazil/odoo-brazil-buildout/10.0/default.cfg"
+https://raw.githubusercontent.com/odoo-brazil/odoo-brazil-buildout/10.0/default.cfg" >> buildout.cfg
 
 script:
   - bin/buildout
